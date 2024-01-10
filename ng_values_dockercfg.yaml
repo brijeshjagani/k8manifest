@@ -1,4 +1,4 @@
-name: bluegreendemo
+name: bgdemo
 replicas: 2
 
 image: ${artifact.metadata.image}
