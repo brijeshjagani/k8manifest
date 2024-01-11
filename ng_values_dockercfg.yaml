@@ -1,7 +1,6 @@
 name: bluegreendemo
 replicas: 2
-serviceVariable_namespace = "default"
-
+serviceVariable_namespace : "default"
 
 image: ${artifact.metadata.image}
 dockercfg: ${artifact.source.dockerconfig}
