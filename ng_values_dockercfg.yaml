@@ -5,7 +5,7 @@ image: ${artifact.metadata.image}
 dockercfg: ${artifact.source.dockerconfig}
 
 createNamespace: "true"
-namespace: "default"
+namespace: default
 
 # Service Type allow you to specify what kind of service you want.
 # Possible values for ServiceType are:
@@ -25,8 +25,4 @@ env:
   config:
     key1: value1
   secrets:
-    key2: value2
-metadata:
-  annotations:
-    key1: value1
     key2: value2
